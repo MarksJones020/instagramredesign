@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.B-con {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-two {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    box-shadow: 5px 20px 20px rgba(232, 231, 232, 0.037);
+}
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 40px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    margin-top: 20px;
+}
+.container .heading i {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.heading h2 {
+    font-size: 40px;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+.container form {
+    width: 360px;
+    height: 430px;
+    border: 1px hidden black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(176, 175, 175, 0.347), -10px -5px 10px rgba(170, 169, 169, 0.412);
+    align-items: center;
+    margin: 100px auto;
+}
+.container input {
+    padding-left: 20px;
+    width: 280px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0.5px hidden gray;
+    border-radius: 5px;
+    background-color: rgba(241, 230, 230, 0.221);
+}
+.t-e-u {
+    margin-top: 45px;
+}
+.container div {
+    display: flex;
+    justify-content: center;
+}
+.loginbtn {
+    text-decoration: none;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #f75400, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #ffe400, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #c6cb00, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #ff7300, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #fd009d, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #ff000e, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #fb0090, transparent), linear-gradient(#6559ca, #f800e3 30%, #f54b7f 50%, #f77638 70%, #b800fb 100%);
+
+    color: white;  
+    height: 40px;
+    width: 280px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div p {
+    padding: 15px;
+    margin: auto;
+ }
+.fbbtn {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #1876ef;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    color: #1876ef;
+}
+.fb-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fbbtn i {
+    margin-right: 20px;
+}
+.pw-btn {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: gray;
+    border-bottom: 1px solid rgba(95, 91, 91, 0.234);
+}
+.signupbtn {
+    text-decoration: none;
+    color: #1876ef;
+}
